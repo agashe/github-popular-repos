@@ -1,0 +1,31 @@
+/* ************ [Global] ************ */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+/* ************ [Global] ************ */ 
+
+/* ************ [Header] ************ */
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+/* ************ [Header] ************ */
+
+/* ************ [Main] ************ */
+main {
+    min-height: 500px;
+}
+
+.card-title {
+    height: 30px !important;
+}
+
+article {
+    height: 70px !important;
+    margin-bottom: 15px;
+}
+/* ************ [Main] ************ */
