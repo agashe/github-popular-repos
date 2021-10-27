@@ -2,7 +2,7 @@
 
 namespace Tests\Unit;
 
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class GitHubSearchTest extends TestCase
 {
@@ -27,6 +27,6 @@ class GitHubSearchTest extends TestCase
      */
     public function testSearch()
     {
-        $this->assertEquals(10, count([$this->githubSearch->search([])]));
+        $this->assertEquals(10, count($this->githubSearch->search([])));
     }
 }
